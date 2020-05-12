@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eBanking.testCases.TC_LoginTest_testCase">
+      <class name="com.eBanking.testCases.TC_LoginTest_DDT_001">
         <methods>
+          <include name="login_DDT"/>
           <include name="tearDown"/>
-          <include name="loginTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.eBanking.testCases.TC_LoginTest_testCase -->
+      </class> <!-- com.eBanking.testCases.TC_LoginTest_DDT_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

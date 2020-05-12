@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.eBanking.pageObjects.LoginPage;
 
-public class TC_LoginTest_testCase extends BaseClass {
+public class TC_LoginTest_TestCase_001 extends BaseClass {
 	
 	@Test
 	public void loginTest() throws IOException {

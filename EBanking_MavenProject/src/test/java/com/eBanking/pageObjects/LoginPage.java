@@ -37,6 +37,16 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnReset;
 	
+	//Welcome Text Just After Login
+	@FindBy(xpath="//marquee[@class='heading3']")
+	@CacheLookup
+	WebElement welcomeTxt;
+	
+	//Logout Button
+	@FindBy(xpath="//a[contains(text(),'Log out')]")
+	@CacheLookup
+	WebElement logoutBtn;
+	
 	//Set Action method for all these element
 	// Set User ID
 	public void setUserID(String userID) {
@@ -60,5 +70,27 @@ public class LoginPage {
 	public void clickReset() {
 		
 		btnReset.click();
-	}			
+	}	
+	
+	//Check Welcome text is present or not after log in
+	public boolean checkWelTxt()
+	{
+		boolean status = welcomeTxt.isDisplayed();
+		return status;
+	}
+	
+	// Click on Submit Button
+	public void clickLogout() {		
+		logoutBtn.click();		
+	}	
 }
+
+
+
+
+
+
+
+
+
+

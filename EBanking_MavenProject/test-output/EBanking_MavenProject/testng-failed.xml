@@ -7,13 +7,13 @@
   <test thread-count="5" name="Banking Site Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.eBanking.testCases.TC_LoginTest_testCase">
+      <class name="com.eBanking.testCases.TC_AddNewCustomer_TestCase_002">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="addNewCustomer"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.eBanking.testCases.TC_LoginTest_testCase -->
+      </class> <!-- com.eBanking.testCases.TC_AddNewCustomer_TestCase_002 -->
     </classes>
   </test> <!-- Banking Site Test(failed) -->
 </suite> <!-- Failed suite [EBanking_MavenProject] -->

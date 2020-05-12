@@ -3,10 +3,13 @@ package com.eBanking.testCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.maven.shared.utils.io.FileUtils;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -54,6 +57,8 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		
 		driver.get(baseURL);
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 	}
 	
@@ -70,7 +75,35 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot is taken");
+		logger.info("Screenshot is taken");
 		
+	}
+	
+	public boolean isAlertPresent()
+	{
+		try
+		{
+			driver.switchTo().alert();
+			return true;
+		}
+		catch(NoAlertPresentException e)
+		{
+			return false;
+		}
+		
+		
+	}
+	
+	public String generatedStr(int count)
+	{
+		String ranStr = RandomStringUtils.randomAlphabetic(count);
+		return ranStr;		
+	}
+	
+	public String generatedNum(int count)
+	{
+		String ranNum = RandomStringUtils.randomAlphanumeric(4);
+		return ranNum;		
 	}
 
 
