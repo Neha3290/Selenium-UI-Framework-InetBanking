@@ -32,12 +32,12 @@ public class TC_LoginTest_TestCase_001 extends BaseClass {
 				
 				logger.info("Login is done Successfully");
 				Assert.assertTrue(true);	
-				
+				lp.clickLogout();
 				
 			}else {
 				
-				captureScreenshot("loginTest");
-				logger.info("Login is failed");
+				captureScreenshot(driver, "loginTest");
+				logger.warn("Login is failed");
 				Assert.assertTrue(false);
 				
 			}

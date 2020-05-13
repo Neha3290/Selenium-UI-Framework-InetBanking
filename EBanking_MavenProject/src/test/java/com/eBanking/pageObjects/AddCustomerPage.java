@@ -171,10 +171,7 @@ public class AddCustomerPage {
 	public void clickReset()
 	{
 		resetBtn.click();
-	}
-
-
-	
+	}	
 	
 
 }

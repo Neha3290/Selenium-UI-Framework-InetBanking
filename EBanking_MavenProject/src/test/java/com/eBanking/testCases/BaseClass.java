@@ -68,15 +68,14 @@ public class BaseClass {
 	}
 	
 	
-	public void captureScreenshot(String tname) throws IOException {
+	public void captureScreenshot(WebDriver driver, String tname) throws IOException {
 		
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot is taken");
-		logger.info("Screenshot is taken");
-		
+		//logger.log(LogStatus.FAIL, logger.addScreenCapture(target));
 	}
 	
 	public boolean isAlertPresent()
@@ -89,8 +88,7 @@ public class BaseClass {
 		catch(NoAlertPresentException e)
 		{
 			return false;
-		}
-		
+		}	
 		
 	}
 	

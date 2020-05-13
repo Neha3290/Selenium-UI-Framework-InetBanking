@@ -128,3 +128,72 @@
 2020-05-12 23:54:31,786 - eBanking -INFO - New Customer link text is clicked
 2020-05-12 23:54:35,562 - eBanking -INFO - Customer detail is entered
 2020-05-12 23:54:35,619 - eBanking -INFO - Submit button is clicked
+2020-05-13 00:21:15,045 - eBanking -INFO - Login Successfull
+2020-05-13 00:21:16,289 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 00:21:20,147 - eBanking -INFO - Customer detail is entered
+2020-05-13 00:21:21,142 - eBanking -INFO - Submit button is clicked
+2020-05-13 00:21:31,193 - eBanking -INFO - New Customer is added Successfully
+2020-05-13 00:22:22,283 - eBanking -INFO - Login Successfull
+2020-05-13 00:22:23,775 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 00:22:27,617 - eBanking -INFO - Customer detail is entered
+2020-05-13 00:22:27,699 - eBanking -INFO - Submit button is clicked
+2020-05-13 20:40:45,136 - eBanking -INFO - User ID entered
+2020-05-13 20:40:45,238 - eBanking -INFO - User password is entered
+2020-05-13 20:40:45,302 - eBanking -INFO - Submit button clicked
+2020-05-13 20:40:45,315 - eBanking -INFO - mngr259076 = Login Successfull
+2020-05-13 20:40:50,818 - eBanking -INFO - Ok button is clicked on Logout Alert
+2020-05-13 20:40:52,979 - eBanking -INFO - User ID entered
+2020-05-13 20:40:53,041 - eBanking -INFO - User password is entered
+2020-05-13 20:40:53,568 - eBanking -INFO - Submit button clicked
+2020-05-13 20:40:53,571 - eBanking -WARN - abcd250320 = Login Failed
+2020-05-13 20:40:53,582 - eBanking -INFO - Ok button is clicked on Alert after unsuccessfull login
+2020-05-13 20:40:56,712 - eBanking -INFO - User ID entered
+2020-05-13 20:40:56,782 - eBanking -INFO - User password is entered
+2020-05-13 20:40:58,897 - eBanking -INFO - Submit button clicked
+2020-05-13 20:40:58,901 - eBanking -INFO - mngr259076 = Login Successfull
+2020-05-13 20:41:03,654 - eBanking -INFO - Ok button is clicked on Logout Alert
+2020-05-13 20:41:06,229 - eBanking -INFO - User ID entered
+2020-05-13 20:41:06,293 - eBanking -INFO - User password is entered
+2020-05-13 20:41:06,820 - eBanking -INFO - Submit button clicked
+2020-05-13 20:41:06,822 - eBanking -WARN - abcd250320 = Login Failed
+2020-05-13 20:41:06,829 - eBanking -INFO - Ok button is clicked on Alert after unsuccessfull login
+2020-05-13 20:41:40,627 - eBanking -INFO - Login Successfull
+2020-05-13 20:44:41,588 - eBanking -INFO - URL is Opened
+2020-05-13 20:44:41,753 - eBanking -INFO - User ID is entered
+2020-05-13 20:44:41,842 - eBanking -INFO - Password is entered
+2020-05-13 20:44:41,901 - eBanking -INFO - We have clicked on Submit button
+2020-05-13 20:44:43,732 - eBanking -WARN - Login is failed
+2020-05-13 20:45:18,536 - eBanking -INFO - Login Successfull
+2020-05-13 20:45:19,734 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 20:45:23,552 - eBanking -INFO - Customer detail is entered
+2020-05-13 20:45:23,617 - eBanking -INFO - Submit button is clicked
+2020-05-13 20:49:51,893 - eBanking -INFO - URL is Opened
+2020-05-13 20:49:52,045 - eBanking -INFO - User ID is entered
+2020-05-13 20:49:52,118 - eBanking -INFO - Password is entered
+2020-05-13 20:49:56,940 - eBanking -INFO - We have clicked on Submit button
+2020-05-13 20:49:56,962 - eBanking -INFO - Login is done Successfully
+2020-05-13 20:50:31,385 - eBanking -INFO - Login Successfull
+2020-05-13 20:50:32,395 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 20:50:36,270 - eBanking -INFO - Customer detail is entered
+2020-05-13 20:50:37,604 - eBanking -INFO - Submit button is clicked
+2020-05-13 20:50:47,619 - eBanking -INFO - New Customer is added Successfully
+2020-05-13 20:55:20,795 - eBanking -INFO - Login Successfull
+2020-05-13 20:55:21,857 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 20:55:25,677 - eBanking -INFO - Customer detail is entered
+2020-05-13 20:55:25,732 - eBanking -INFO - Submit button is clicked
+2020-05-13 22:48:43,650 - eBanking -INFO - URL is Opened
+2020-05-13 22:48:43,769 - eBanking -INFO - User ID is entered
+2020-05-13 22:48:43,835 - eBanking -INFO - Password is entered
+2020-05-13 22:49:24,613 - eBanking -INFO - We have clicked on Submit button
+2020-05-13 22:49:24,619 - eBanking -INFO - Login is done Successfully
+2020-05-13 22:51:29,288 - eBanking -INFO - Login Successfull
+2020-05-13 22:51:43,567 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 22:52:52,596 - eBanking -INFO - URL is Opened
+2020-05-13 22:52:52,711 - eBanking -INFO - User ID is entered
+2020-05-13 22:52:52,802 - eBanking -INFO - Password is entered
+2020-05-13 22:53:34,805 - eBanking -INFO - We have clicked on Submit button
+2020-05-13 22:53:34,811 - eBanking -INFO - Login is done Successfully
+2020-05-13 22:55:42,402 - eBanking -INFO - Login Successfull
+2020-05-13 22:56:22,511 - eBanking -INFO - New Customer link text is clicked
+2020-05-13 22:56:26,392 - eBanking -INFO - Customer detail is entered
+2020-05-13 22:56:26,444 - eBanking -INFO - Submit button is clicked

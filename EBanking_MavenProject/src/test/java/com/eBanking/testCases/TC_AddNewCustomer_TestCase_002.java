@@ -15,13 +15,14 @@ public class TC_AddNewCustomer_TestCase_002 extends BaseClass{
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException
 	{
-		
+	
+	
 	LoginPage lp =new LoginPage(driver);
 	
 	lp.setUserID("mngr259076");
 	lp.setPassword("huhetug");
 	lp.clickSubmit();
-	Thread.sleep(3000);
+	Thread.sleep(8000);
 	logger.info("Login Successfull");	
 	
 	
@@ -42,7 +43,7 @@ public class TC_AddNewCustomer_TestCase_002 extends BaseClass{
 	
 	//Create Random Unique Email ID
 	String randomString = generatedStr(6);	
-	addCust.enterEmail(randomString+"@gmail.com");
+	addCust.enterEmail(randomString+"gmail.com");
 	
 	addCust.enterPassword("Putt@143");
 	logger.info("Customer detail is entered");
@@ -59,9 +60,10 @@ public class TC_AddNewCustomer_TestCase_002 extends BaseClass{
 	}
 	else
 	{
-		captureScreenshot("TC_AddNewCustomer_TestCase_002");
+		captureScreenshot(driver, "TC_AddNewCustomer_TestCase_002");
 		Thread.sleep(5000);
-		logger.info("New Customer is not added Successfully");
+		
+		logger.warn("New Customer is not added Successfully");
 		driver.switchTo().alert().accept();
 		driver.switchTo().defaultContent();
 		Assert.assertTrue(false);

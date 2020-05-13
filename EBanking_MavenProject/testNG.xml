@@ -15,8 +15,8 @@
 	
 		<classes>
 		
-			<!-- <class name="com.eBanking.testCases.TC_LoginTest_DDT_001" /> -->
-			<!-- <class name="com.eBanking.testCases.TC_LoginTest_TestCase_001" /> -->
+			 <!-- <class name="com.eBanking.testCases.TC_LoginTest_DDT_001" /> -->
+			 <class name="com.eBanking.testCases.TC_LoginTest_TestCase_001" />
 			<class name="com.eBanking.testCases.TC_AddNewCustomer_TestCase_002" />
 			
 		
